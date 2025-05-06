@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kuzhina e Ëmbël</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Kuzhina e Ëmbël</h1>
+    </header>
+    <div class="menu">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Kërko receta...">
+            <button id="searchButton"><i class="fas fa-search"></i></button>
+        </div>
+        <ul>
+            <li><a href="#trileçe">Trileçe</a></li>
+            <li><a href="#tiramisu">Tiramisu</a></li>
+            <li><a href="#rreth-nesh">Rreth Nesh</a></li>
+            <li><a href="#kontakte">Kontakte</a></li>
+            <li><a href="#receta-të-ruajtura">Receta të Ruajtura</a></li>
+        </ul>
+    </div>
+    <main>
+        <div id="trileçe" class="recipe">
+            <div class="recipe-header">
+                <h2>Trileçe</h2>
+                <div class="recipe-actions">
+                    <div class="rating" data-recipe="trileçe">
+                        <i class="far fa-star" data-value="1"></i>
+                        <i class="far fa-star" data-value="2"></i>
+                        <i class="far fa-star" data-value="3"></i>
+                        <i class="far fa-star" data-value="4"></i>
+                        <i class="far fa-star" data-value="5"></i>
+                        <span class="average-rating"></span>
+                    </div>
+                    <button class="favorite-btn" data-recipe="trileçe"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+            <img src="trilece.jpg" alt="Trileçe">
+            <div class="introduction">
+                <p>Trileçja është një ëmbëlsirë e njomur në tre lloje qumështi: qumësht i avulluar, qumësht i kondensuar dhe qumësht normal. Kjo ëmbëlsirë e ka origjinën nga Amerika Latine.</p>
+            </div>
+            <div class="përbërësit">
+                <h3>Përbërësit</h3>
+                <ul>
+                    <li>6 vezë</li>
+                    <li>300 g sheqer</li>
+                    <li>300 g miell</li>
+                    <li>një pluhur pjekës</li>
+                    <li>një vanilje</li>
+                    <li>400 ml qumësht panda</li>
+                    <li>500 ml qumësht ëmbëlsirë</li>
+                    <li>1 l qumësht të zakonshëm</li>
+                    <li>500 g krem karamel (do ta hollojmë duke i shtuar qumësht)</li>
+                </ul>
+            </div>
+            <div class="përgatitja">
+                <h3>Përgatitja</h3>
+                <ol>
+                    <li>Do të marrim 2 tasa të mëdhenj.</li>
+                    <li>Te njëri tas do të nxjerrim të verdhën e vezës dhe te tjetri të bardhën e vezës.</li>
+                    <li>Do e rrahim të verdhën deri sa të bëhet me një ngjyrë të verdhë të hapur, pastaj do të hedhim 300 gr sheqer, do i përziejmë mirë e mirë derisa të mos mbetet më sheqer, pastaj do t'i hedhim miellin dhe një vanilje dhe do ta përziejmë derisa të mos mbetet gjë.</li>
+                    <li>Më pas do të rrahim të bardhën e vezës deri sa të fryhet dhe të bardhën do e hedhim tek e verdha.</li>
+                    <li>Do t'i përziejmë ngadalë që të mos bjerë masa dhe do ta fusim në furrë me temperaturë 180° për 30 minuta.</li>
+                </ol>
+            </div>
+        </div>
+        <div id="tiramisu" class="recipe">
+            <div class="recipe-header">
+                <h2>Tiramisu</h2>
+                <div class="recipe-actions">
+                    <div class="rating" data-recipe="tiramisu">
+                        <i class="far fa-star" data-value="1"></i>
+                        <i class="far fa-star" data-value="2"></i>
+                        <i class="far fa-star" data-value="3"></i>
+                        <i class="far fa-star" data-value="4"></i>
+                        <i class="far fa-star" data-value="5"></i>
+                        <span class="average-rating"></span>
+                    </div>
+                    <button class="favorite-btn" data-recipe="tiramisu"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+            <img src="tiramisu.jpg" alt="Tiramisu">
+            <div class="introduction">
+                <p>Tiramisuja është një nga themelet e kuzhinës italiane, një nga ëmbëlsirat më të pëlqyera dhe më të njohura në të gjithë botën.</p>
+            </div>
+            <div class="përbërësit">
+                <h3>Përbërësit</h3>
+                <ul>
+                    <li>500 g djathë Mascarpone</li>
+                    <li>6 vezë të freskëta në temperaturë ambienti (të verdhat veç nga të bardhat)</li>
+                    <li>120 g sheqer</li>
+                    <li>5-6 filxhanë kafeje ekspres të vakët ku kemi tretur 2 lugë sheqer</li>
+                    <li>300-400 g biskota Savoiardi</li>
+                    <li>kakao e hidhur për spërkatje</li>
+                </ul>
+            </div>
+            <div class="përgatitja">
+                <h3>Përgatitja</h3>
+                <ol>
+                    <li>Rrahim me rrahësin elektrik të verdhat e vezëve dhe sheqerin derisa të bëhen si shkumë, afërsisht pesë minuta.</li>
+                    <li>Djathin Mascarpone e punojmë pak me pirun ose me lugë që të bëhet si krem dhe e shtojmë në tasin me të verdhat e vezëve. Vazhdojmë ta përziejmë me rrahësin elektrik një deri në dy minuta.</li>
+                    <li>Bëjmë marengë me të bardhat e vezëve, i shtojmë te tasi i kremit dhe i përziejmë me kujdes nga poshtë lart me spatula ose me lugë druri.</li>
+                    <li>Biskotat i lagim te kafeja e vakët (nuk duhet të qullen shumë) dhe i vendosim në tavë pranë njëra-tjetrës duke krijuar një shtresë, hedhim sipër një shtresë me krem, vazhdojmë me një shtresë tjetër biskotash me kafe dhe përsëri një shtresë kremi.</li>
+                    <li>E spërkasim me kakao të hidhur, e mbulojmë me letër alumini dhe e lëmë në frigorifer për një natë.</li>
+                </ol>
+            </div>
+        </div>
+        <div id="rreth-nesh">
+            <h2>Rreth Nesh</h2>
+            <p>Mirë se vini në faqen tonë të internetit të recetave të gatimit, ku frymëzimi i kuzhinës takohet me krijimet e shijshme! Në Kuzhinën e Ëmbël, ne jemi një ekip entuziastësh të ushqimit, të pasionuar për të sjellë gëzimin e gatimit në kuzhinën tuaj.</p>
+        </div>
+        <div id="kontakte">
+            <h2>Kontakte</h2>
+            <p>Do të donim të dëgjonim nga ju! Nëse keni pyetje, komente ose thjesht dëshironi të ndani me ne aventurat tuaja të gatimit, mos ngurroni të na kontaktoni në kuzhinaeëmbël@gmail.com.</p>
+        </div>
+        <div id="receta-të-ruajtura">
+            <h2>Receta të Ruajtura</h2>
+            <div id="favorites-list">
+                <p id="no-favorites-message">Nuk keni asnjë recetë të ruajtur. Klikoni ikonën e zemrës në një recetë për ta ruajtur atë këtu.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 nga A.L. Të gjitha të drejtat e rezervuara.</p>
+    </footer>
+
+    <script>
+    // Smooth scrolling for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 20,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Rating system
+    document.querySelectorAll('.rating i').forEach(star => {
+        star.addEventListener('click', function() {
+            const recipeName = this.closest('.rating').dataset.recipe;
+            const value = parseInt(this.dataset.value);
+            const stars = this.closest('.rating').querySelectorAll('i');
+            
+            // Update UI
+            stars.forEach((s, index) => {
+                if (index < value) {
+                    s.classList.remove('far');
+                    s.classList.add('fas');
+                } else {
+                    s.classList.remove('fas');
+                    s.classList.add('far');
+                }
+            });
+            
+            // Save rating to localStorage
+            const ratings = JSON.parse(localStorage.getItem('recipeRatings') || '{}');
+            ratings[recipeName] = value;
+            localStorage.setItem('recipeRatings', JSON.stringify(ratings));
+            
+            // Update average rating display
+            updateAverageRating(recipeName);
+        });
+    });
+
+    // Update average ratings on page load
+    function updateAverageRatings() {
+        document.querySelectorAll('.rating').forEach(ratingElement => {
+            const recipeName = ratingElement.dataset.recipe;
+            updateAverageRating(recipeName);
+        });
+    }
+
+    function updateAverageRating(recipeName) {
+        const ratings = JSON.parse(localStorage.getItem('recipeRatings') || '{}');
+        const currentRating = ratings[recipeName];
+        
+        if (currentRating) {
+            const averageRatingElement = document.querySelector(`.rating[data-recipe="${recipeName}"] .average-rating`);
+            if (averageRatingElement) {
+                averageRatingElement.textContent = `(${currentRating}/5)`;
+            }
+        }
+    }
+
+    // Favorite recipes system
+    document.querySelectorAll('.favorite-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const recipeName = this.dataset.recipe;
+            const favorites = JSON.parse(localStorage.getItem('recipeFavorites') || '[]');
+            const recipeElement = document.getElementById(recipeName);
+            
+            const heartIcon = this.querySelector('i');
+            
+            if (favorites.includes(recipeName)) {
+                // Remove from favorites
+                const index = favorites.indexOf(recipeName);
+                if (index > -1) {
+                    favorites.splice(index, 1);
+                }
+                heartIcon.classList.remove('fas');
+                heartIcon.classList.add('far');
+            } else {
+                // Add to favorites
+                favorites.push(recipeName);
+                heartIcon.classList.remove('far');
+                heartIcon.classList.add('fas');
+            }
+            
+            localStorage.setItem('recipeFavorites', JSON.stringify(favorites));
+            updateFavoritesList();
+        });
+    });
+
+    // Update favorites buttons on page load
+    function updateFavoriteButtons() {
+        const favorites = JSON.parse(localStorage.getItem('recipeFavorites') || '[]');
+        
+        document.querySelectorAll('.favorite-btn').forEach(btn => {
+            const recipeName = btn.dataset.recipe;
+            const heartIcon = btn.querySelector('i');
+            
+            if (favorites.includes(recipeName)) {
+                heartIcon.classList.remove('far');
+                heartIcon.classList.add('fas');
+            } else {
+                heartIcon.classList.remove('fas');
+                heartIcon.classList.add('far');
+            }
+        });
+    }
+
+    // Update favorites list
+    function updateFavoritesList() {
+        const favorites = JSON.parse(localStorage.getItem('recipeFavorites') || '[]');
+        const favoritesList = document.getElementById('favorites-list');
+        
+        if (favorites.length === 0) {
+            document.getElementById('no-favorites-message').style.display = 'block';
+        } else {
+            document.getElementById('no-favorites-message').style.display = 'none';
+        }
+
+        favoritesList.innerHTML = '';
+        favorites.forEach(recipe => {
+            const listItem = document.createElement('div');
+            listItem.textContent = recipe;
+            favoritesList.appendChild(listItem);
+        });
+    }
+
+    // Initialize favorite buttons and list on page load
+    updateFavoriteButtons();
+    updateFavoritesList();
+    updateAverageRatings();
+
+// Favorite (save) functionality using localStorage
+document.querySelectorAll('.favorite-btn').forEach(button => {
+    const recipe = button.getAttribute('data-recipe');
+
+    // Load saved state
+    const savedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
+    if (savedFavorites.includes(recipe)) {
+        button.querySelector('i').classList.replace('far', 'fas');
+    }
+
+    button.addEventListener('click', () => {
+        let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
+        if (favorites.includes(recipe)) {
+            favorites = favorites.filter(item => item !== recipe);
+            button.querySelector('i').classList.replace('fas', 'far');
+        } else {
+            favorites.push(recipe);
+            button.querySelector('i').classList.replace('far', 'fas');
+        }
+
+        localStorage.setItem('favorites', JSON.stringify(favorites));
+        updateFavoritesList();
+    });
+});
+
+// Display favorite recipes
+document.querySelectorAll('.favorite-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const recipeId = button.getAttribute('data-recipe');
+        const recipeElement = document.getElementById(recipeId);
+
+        if (recipeElement) {
+            const clonedRecipe = recipeElement.cloneNode(true); // merr gjithë përmbajtjen
+            clonedRecipe.classList.add('saved-recipe');
+            const actions = clonedRecipe.querySelector('.recipe-actions');
+            if (actions) actions.remove(); // fsheh rating/unlike
+
+            const favoritesList = document.getElementById('favorites-list');
+
+            // Hiq mesazhin nëse është aktiv
+            const noFavoritesMsg = document.getElementById('no-favorites-message');
+            if (noFavoritesMsg) {
+                noFavoritesMsg.remove();
+            }
+
+            // Kontrollo nëse është ruajtur më parë (opsionale)
+            const existing = favoritesList.querySelector(`#${recipeId}-saved`);
+            if (existing) {
+                alert('Kjo recetë është ruajtur tashmë.');
+                return;
+            }
+
+            // Ndrysho id që të mos ketë duplikim HTML
+            clonedRecipe.id = `${recipeId}-saved`;
+
+            favoritesList.appendChild(clonedRecipe);
+        }
+    });
+});
+
+    </script>
+</body>
+</html>
